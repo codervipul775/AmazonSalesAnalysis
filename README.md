@@ -1,183 +1,154 @@
-# 📊 Amazon Sales Analysis Dashboard (DVA Capstone Project)
+#  Amazon Sales Analysis Dashboard
 
-## 🎯 Project Overview
-
-This project analyzes Amazon product sales data to uncover meaningful insights about revenue trends, customer behavior, and product performance. The goal is to transform raw data into actionable business insights using data analysis and visualization techniques.
-
-The project covers:
-
-* Data extraction and cleaning
-* Exploratory Data Analysis (EDA)
-* Statistical analysis
-* Interactive dashboard creation using Tableau
+This project analyzes Amazon product sales data to uncover meaningful insights about revenue trends, customer behavior, and product performance. The goal is to transform raw data into actionable business insights using advanced data analysis and visualization techniques.
 
 ---
 
-## 📂 Dataset Description
+##  Table of Contents
+*   [Project Overview](#-project-overview)
+*   [Dataset Description](#-dataset-description)
+*   [Technologies Used](#️-technologies-used)
+*   [Project Structure](#-project-structure)
+*   [Tableau Dashboard](#-tableau-dashboard)
+*   [Key Insights](#-key-insights)
+*   [Business Recommendations](#-business-recommendations)
+*   [How to Run](#️-how-to-run-the-project)
+*   [Team Members](#-team-members--contributions)
 
+---
+
+##  Project Overview
+The project covers the entire data lifecycle:
+*   **Data Extraction:** Gathering raw Amazon sales data.
+*   **Cleaning & Preprocessing:** Handling missing values and outliers.
+*   **Exploratory Data Analysis (EDA):** Identifying patterns and correlations.
+*   **Statistical Analysis:** Validating insights with data-driven metrics.
+*   **Visualization:** Creating an interactive dashboard in Tableau.
+
+---
+
+##  Dataset Description
 **Dataset:** Amazon Product Sales Dataset (42K+ records)
 
-### 🔹 Features:
+###  Features
+*   **Product Category:** Segmented by niche.
+*   **Pricing:** Discounted Price & Original Price.
+*   **Engagement:** Product Rating & Total Reviews.
+*   **Performance:** Purchased Last Month & Best Seller Indicator.
 
-* Product Category
-* Discounted Price & Original Price
-* Discount Percentage
-* Product Rating
-* Total Reviews
-* Purchased Last Month
-* Best Seller Indicator
-
-### 🔹 Data Processing:
-
-* Removed duplicates and handled missing values
-* Converted data types for analysis
-* Created new features:
-
-  * Estimated Revenue
-  * Rating Category (High / Low)
-  * Best Seller Clean
+###  Data Processing
+*   Removed duplicates and handled missing values.
+*   Converted data types for precise numerical analysis.
+*   **New Features Engineered:**
+    *   `Estimated Revenue`: Calculated from sales and price.
+    *   `Rating Category`: Classified into (High / Low).
+    *   `Best Seller Clean`: Boolean flag for high-performing items.
 
 ---
 
-## ⚙️ Technologies Used
-
-* Python (Pandas, NumPy, Matplotlib, SciPy)
-* Tableau Public
-* Git & GitHub
+##  Technologies Used
+*   **Language:** Python (Pandas, NumPy, Matplotlib, SciPy)
+*   **Visualization:** Tableau Public
+*   **Version Control:** Git & GitHub
 
 ---
 
-## 📁 Project Structure
-
-```
+##  Project Structure
+```text
 AmazonSalesAnalysis/
-
 ├── data/
-│   ├── raw/                 
-│   └── processed/           
-
+│   ├── raw/                 # Original dataset
+│   └── processed/           # Cleaned data for analysis
 ├── docs/
-│   ├── data_dictionary.md
-│   └── recommendations.md
-
+│   ├── data_dictionary.md   # Feature definitions
+│   └── recommendations.md    # Detailed business logic
 ├── notebooks/
 │   ├── 01_extraction.ipynb
 │   ├── 02_cleaning.ipynb
 │   ├── 03_eda.ipynb
 │   ├── 04_statistical_analysis.ipynb
 │   └── 05_final_load_prep.ipynb
-
+├── reports/                 # Project documentation & presentations
+│   ├── presentation.md      # Presentation slides
+│   └── project.md           # Full project report
 ├── scripts/
-│   └── etl_pipeline.py
-
+│   └── etl_pipeline.py      # Automated data processing
 ├── tableau/
-│   ├── screenshots/
-│   └── dashboard_links.md
-
-├── requirements.txt
-├── README.md
-└── .gitignore
+│   ├── screenshots/         # Dashboard previews
+│   └── dashboard_links.md   # Links to live dashboard
+├── requirements.txt         # Dependencies
+└── README.md
 ```
 
 ---
 
-## 📊 Tableau Dashboard
+##  Tableau Dashboard
+![Dashboard Preview](tableau/screenshots/Dashboard.png)
 
-🔗 **Dashboard Link:**
-(Refer to `tableau/dashboard_links.md`)
+🔗 **Direct Link:** [**View Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/Amazon_Dashboard1/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-### Features:
-
-* KPI Cards:
-
-  * Total Revenue
-  * Total Sales
-  * Average Rating
-  * Total Reviews
-
-* Visualizations:
-
-  * Revenue by Product Category
-  * Sales Comparison by Rating Category
-  * Discount vs Revenue Relationship
-  * Reviews vs Sales Relationship
-  * Best Seller vs Non-Best Seller Revenue
-
-* Interactive Filters:
-
-  * Product Category
-  * Rating Category
+### Key Features:
+*   **KPI Cards:** Real-time tracking of Revenue, Sales, Ratings, and Reviews.
+*   **Visual Analysis:** Revenue by Category, Discount vs Revenue, and Rating impact.
+*   **Interactive Filters:** Drill down by Category and Rating Tier.
 
 ---
 
-## 🔍 Key Insights
-
-* High-rated products contribute significantly more to total sales.
-* Discounts do not always result in higher revenue, indicating diminishing returns.
-* Non-best seller products generate a larger portion of total revenue.
-* Certain product categories dominate overall sales performance.
-* Reviews show limited correlation with sales, suggesting other influencing factors.
-
----
-
-## 💡 Business Recommendations
-
-* Focus on improving product quality to increase ratings and sales.
-* Apply discounts strategically instead of aggressively.
-* Invest in high-performing product categories for better returns.
-* Strengthen marketing efforts to convert products into best sellers.
-* Combine review management with pricing strategies to boost performance.
+##  Key Insights
+*   **Quality Matters:** High-rated products contribute significantly more to total sales.
+*   **Discount Paradox:** Discounts do not always result in higher revenue, indicating diminishing returns.
+*   **Volume over Fame:** Non-best seller products generate a larger portion of total revenue due to sheer variety.
+*   **Category Leaders:** Certain product categories dominate overall sales performance.
+*   **Review Impact:** Reviews show limited correlation with sales, suggesting other influencing factors like pricing.
 
 ---
 
-## ▶️ How to Run the Project
+##  Business Recommendations
+1.  **Quality Focus:** Prioritize product quality to naturally boost ratings and sales.
+2.  **Strategic Pricing:** Apply discounts selectively to avoid margin erosion.
+3.  **Inventory Optimization:** Invest more in high-performing product categories.
+4.  **Brand Building:** Strengthen marketing for "Best Seller" conversions.
+5.  **Multi-channel Strategy:** Combine review management with pricing strategies for holistic growth.
 
+---
+
+##  How to Run the Project
 ```bash
+# Clone the repository
 git clone <your-repo-link>
+
+# Navigate to directory
 cd AmazonSalesAnalysis
+
+# Install dependencies
 pip install -r requirements.txt
 ```
-
-Run notebooks sequentially from the `/notebooks` folder.
-
----
-
-## 📌 Notes
-
-* Cleaned dataset is used for all analysis
-* Dashboard is interactive and designed for decision-making
-* No hard-coded values are used in visualizations
+*Run notebooks sequentially from the `/notebooks` folder.*
 
 ---
 
-## 🚀 Project Status
-
-✔ Data Cleaning Completed
-✔ Analysis Completed
-✔ Dashboard Published on Tableau Public
-✔ Documentation Completed
+##  Notes
+*   Cleaned dataset is used for all analysis.
+*   Dashboard is interactive and designed for C-level decision-making.
+*   No hard-coded values; metrics are calculated dynamically.
 
 ---
 
-## 👥 Team Members & Contributions
+##  Project Status
+- [x] Data Cleaning Completed
+- [x] Analysis Completed
+- [x] Dashboard Published on Tableau Public
+- [x] Documentation Completed
 
-This project was completed as a collaborative effort, with all team members contributing across different stages of the data pipeline, analysis, and dashboard development.
+---
 
-* **Vipul Yadav**
-  Contributed to data cleaning, preprocessing, feature engineering, and final dashboard publishing on Tableau Public.
-
-* **Yash Kishor Mali**
-  Managed project documentation, including README, project structure, and overall repository organization.
-
-* **Ananya Gupta**
-  Worked on dashboard design, KPI creation, and development of visualizations in Tableau.
-
-* **Yashveer Singh**
-  Focused on deriving key insights from the data and formulating business recommendations.
-
-* **Abhay Pratap Yadav**
-  Prepared the final project report and ensured proper documentation of analysis and findings.
-
-> 🔹 *Note:* All members actively collaborated in discussions, validation of results, and final review of the project.
+##  Team Members & Contributions
+| Member | Primary Responsibilities |
+| :--- | :--- |
+| **Vipul Yadav** | Data Cleaning, Preprocessing, Feature Engineering, Dashboard Publishing. |
+| **Ananya Gupta** | Dashboard Design, KPI Creation, Visualization Development. |
+| **Yashveer Singh** | Data Insights, Statistical Findings, Business Recommendations. |
+| **Abhay Pratap Yadav** | Final Project Report, Analysis Documentation, Quality Assurance. |
+| **Yash Kishor Mali** | Repository Organization, Project Structure, README Documentation, Data Cleaning. |
 
 ---
