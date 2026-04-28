@@ -411,9 +411,6 @@ his project was completed as a collaborative effort, with all team members contr
 - **Vipul Yadav**
   Contributed to data cleaning, preprocessing, feature engineering, and final dashboard publishing on Tableau Public.
 
-- **Yash Kishor Mali**
-  Managed project documentation, including README, project structure, and overall repository organization.
-
 - **Ananya Gupta**
   Worked on dashboard design, KPI creation, and development of visualizations in Tableau.
 
@@ -422,3 +419,6 @@ his project was completed as a collaborative effort, with all team members contr
 
 - **Abhay Pratap Yadav**
   Prepared the final project report and ensured proper documentation of analysis and findings.
+
+- **Yash Kishor Mali**
+  Managed project documentation, including README, project structure, data cleaning and overall repository organization.

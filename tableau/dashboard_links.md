@@ -1,41 +1,44 @@
-# Tableau Dashboard
+#  Tableau Dashboard
 
-## Amazon Sales Performance Dashboard
+##  Amazon Sales Performance Dashboard
 
-**Public Dashboard Link:**
-https://public.tableau.com/views/Amazon_Dashboard1/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+This dashboard provides a comprehensive overview of Amazon sales data, allowing for deep dives into category performance, revenue trends, and customer engagement metrics.
 
----
-
-## Overview
-
-This Tableau dashboard provides an interactive analysis of Amazon product sales performance. It includes key KPIs and visualizations to understand revenue trends, customer behavior, and the impact of ratings, discounts, and reviews on sales.
+###  Public Dashboard Link
+> **View Interactive Dashboard here:**
+> [**https://public.tableau.com/views/Amazon_Dashboard1/Dashboard1**](https://public.tableau.com/views/Amazon_Dashboard1/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## Features
+##  Dashboard Preview
 
-- KPI Cards:
-  - Total Revenue
-  - Total Sales
-  - Average Rating
-  - Total Reviews
-
-- Visualizations:
-  - Revenue by Product Category
-  - Sales Comparison by Rating Category
-  - Discount vs Revenue Relationship
-  - Reviews vs Sales Relationship
-  - Best Seller vs Non-Best Seller Revenue
-
-- Interactive Filters:
-  - Product Category
-  - Rating Category
-  - Revenue Range
+![Amazon Sales Dashboard](screenshots/Dashboard.png)
 
 ---
 
-## Notes
+##  Features & Insights
 
-- All metrics are dynamically calculated (no hard-coded values).
-- Dashboard is designed for decision-making with clean and intuitive layout.
+###  KPI Cards
+*   **Total Revenue:** Overall gross sales amount.
+*   **Total Sales:** Count of units sold.
+*   **Average Rating:** Customer satisfaction metric.
+*   **Total Reviews:** Volume of customer feedback.
+
+###  Key Visualizations
+*   **Revenue by Product Category:** Identifying top-performing niches.
+*   **Sales Comparison by Rating Category:** Analyzing the impact of quality on volume.
+*   **Discount vs Revenue Relationship:** Evaluating promotional effectiveness.
+*   **Reviews vs Sales Relationship:** Understanding social proof impact.
+*   **Best Seller vs Non-Best Seller Revenue:** Revenue distribution analysis.
+
+###  Interactive Filters
+*   **Product Category:** Narrow down by specific niches.
+*   **Rating Category:** Filter by customer satisfaction tiers.
+*   **Revenue Range:** Analyze specific price/revenue segments.
+
+---
+
+##  Technical Notes
+*   **Dynamic Data:** All metrics are dynamically calculated from the processed dataset.
+*   **Intuitive Design:** Optimized for clarity and quick decision-making.
+*   **Compatibility:** Best viewed on desktop browsers for full interactivity.
