@@ -4,15 +4,15 @@
 
 ## 1. Cover Page
 
-| Field               | Details                                               |
-| ------------------- | ----------------------------------------------------- |
-| **Project Title**   | Amazon Product Sales Analysis                         |
-| **Sector**          | E-Commerce / Retail Technology                        |
-| **Team ID**         | DETECTIVES                                            |
-| **Team Members**    | Vipul · Ananya Gupta · Yash Mali · Abhay Pratap Yadav |
-| **Faculty Mentor**  | Vrushali                                              |
-| **Institute**       | Newton School Of Technology                           |
-| **Submission Date** | 28 April 2026                                         |
+| Field               | Details                                                               |
+| ------------------- | --------------------------------------------------------------------- |
+| **Project Title**   | Amazon Product Sales Analysis                                         |
+| **Sector**          | E-Commerce / Retail Technology                                        |
+| **Team ID**         | DETECTIVES                                                            |
+| **Team Members**    | Vipul · Ananya Gupta · Yash Mali· Yashveer Singh · Abhay Pratap Yadav |
+| **Faculty Mentor**  | Vrushali                                                              |
+| **Institute**       | Newton School Of Technology                                           |
+| **Submission Date** | 28 April 2026                                                         |
 
 ---
 
